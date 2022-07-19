@@ -1,0 +1,28 @@
+#CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./RHSCFedAvg_v3.py --seed 999 -m 'toniot' -dp 1.0 -tr 0.3 -or 0.1 -v 0 -e 20 -r 100 -ad 'trial3' -l 0. -ed 'cuda:0' -gi -1 -rlr 1e-3 -clr 5e-4 -p 10 -ps 10 -pss 0.001 -pd 2 -lr 1e-4 -i 5 -g 0. --verbose --update_c --return_best
+#CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./RHSCFedAvg_v3.py --seed 999 -m 'toniot' -dp 1.0 -tr 0.3 -or 0.1 -v 0 -e 20 -r 100 -ad 'trial4' -l 0. -ed 'cuda:0' -gi 10 -rlr 1e-3 -clr 5e-4 -p 10 -ps 10 -pss 0.001 -pd 2 -lr 1e-4 -i 5 -g 0. --verbose --update_c --return_best
+#CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./RHSCFedAvg_v3.py --seed 999 -m 'toniot' -dp 1.0 -tr 0.3 -or 0.1 -v 0 -e 20 -r 100 -ad 'trial3' -l 0. -ed 'cuda:0' -gi -1 -rlr 1e-3 -clr 5e-4 -p 10 -ps 10 -pss 0.001 -pd 2 -lr 1e-4 -i 5 -g 0. --verbose --return_best
+#CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./RHSCFedAvg_v3.py --seed 999 -m 'toniot' -dp 1.0 -tr 0.3 -or 0.1 -v 0 -e 20 -r 100 -ad 'trial4' -l 0. -ed 'cuda:0' -gi 10 -rlr 1e-3 -clr 5e-4 -p 10 -ps 10 -pss 0.001 -pd 2 -lr 1e-4 -i 5 -g 0. --verbose --return_best
+
+
+
+
+#CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./RHSCFedAvg_v3.py --seed 999 -m 'cicids' -dp 1.0 -tr 0.3 -or 0.1 -v 0 -e 20 -r 100 -ad 'trial3' -l 0. -ed 'cuda:0' -gi -1 -rlr 1e-3 -clr 5e-4 -p 10 -ps 10 -pss 0.001 -pd 2 -lr 5e-6 -i 5 -g 0. --verbose --update_c --return_best
+#CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./RHSCFedAvg_v3.py --seed 999 -m 'cicids' -dp 1.0 -tr 0.3 -or 0.1 -v 0 -e 20 -r 100 -ad 'trial4' -l 0. -ed 'cuda:0' -gi 10 -rlr 1e-3 -clr 5e-4 -p 10 -ps 10 -pss 0.001 -pd 2 -lr 5e-6 -i 5 -g 0. --verbose --update_c --return_best
+#CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./RHSCFedAvg_v3.py --seed 999 -m 'cicids' -dp 1.0 -tr 0.3 -or 0.1 -v 0 -e 20 -r 100 -ad 'trial3' -l 0. -ed 'cuda:0' -gi -1 -rlr 1e-3 -clr 5e-4 -p 10 -ps 10 -pss 0.001 -pd 2 -lr 5e-6 -i 5 -g 0. --verbose --return_best
+#CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./RHSCFedAvg_v3.py --seed 999 -m 'cicids' -dp 1.0 -tr 0.3 -or 0.1 -v 0 -e 20 -r 100 -ad 'trial4' -l 0. -ed 'cuda:0' -gi 10 -rlr 1e-3 -clr 5e-4 -p 10 -ps 10 -pss 0.001 -pd 2 -lr 5e-6 -i 5 -g 0. --verbose --return_best
+
+#CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./RHSCFedAvg_v3.py --seed 999 -m 'cicids' -dp 0.3 -tr 0.3 -or 0.1 -v 0 -e 20 -r 100 -ad 'trial6' -l 0. -ed 'cuda:0' -gi -1 -rlr 5e-5 -clr 5e-5 -p 10 -ps 10 -pss 0.001 -pd 2 -lr 5e-6 -i 5 -g 0. --verbose --update_c --return_best
+#CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./RHSCFedAvg_v3.py --seed 999 -m 'cicids' -dp 0.3 -tr 0.3 -or 0.1 -v 0 -e 20 -r 100 -ad 'trial7' -l 0. -ed 'cuda:0' -gi 10 -rlr 5e-5 -clr 5e-5 -p 10 -ps 10 -pss 0.001 -pd 2 -lr 5e-6 -i 5 -g 0. --verbose --update_c --return_best
+#CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./RHSCFedAvg_v3.py --seed 999 -m 'cicids' -dp 0.3 -tr 0.3 -or 0.1 -v 0 -e 20 -r 100 -ad 'trial6' -l 0. -ed 'cuda:0' -gi -1 -rlr 5e-5 -clr 5e-5 -p 10 -ps 10 -pss 0.001 -pd 2 -lr 5e-6 -i 5 -g 0. --verbose --return_best
+#CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./RHSCFedAvg_v3.py --seed 999 -m 'cicids' -dp 0.3 -tr 0.3 -or 0.1 -v 0 -e 20 -r 100 -ad 'trial7' -l 0. -ed 'cuda:0' -gi 10 -rlr 5e-5 -clr 5e-5 -p 10 -ps 10 -pss 0.001 -pd 2 -lr 5e-6 -i 5 -g 0. --verbose --return_best
+
+#CUDA_VISIBLE_DEVICES=5,1,2,3 python3 ./RHSCFedAvg_v3.py --seed 999 -m 'cicids' -dp 0.3 -tr 0.3 -or 0.1 -v 0 -e 20 -r 100 -ad 'trial9' -l 0. -ed 'cuda:0' -gi -1 -rlr 1e-3 -clr 5e-4 -p 10 -ps 10 -pss 0.001 -pd 2 -lr 1e-5 -i 5 -g 0. --verbose --update_c
+#CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./RHSCFedAvg_v3.py --seed 999 -m 'cicids' -dp 0.3 -tr 0.3 -or 0.1 -v 0 -e 20 -r 100 -ad 'trial8' -l 0. -ed 'cuda:0' -gi -1 -rlr 5e-4 -clr 5e-4 -p 10 -ps 10 -pss 0.001 -pd 2 -lr 1e-5 -i 5 -g 0. --verbose --update_c --return_best
+#CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./RHSCFedAvg_v3.py --seed 999 -m 'cicids' -dp 0.3 -tr 0.3 -or 0.1 -v 0 -e 20 -r 100 -ad 'trial8' -l 0. -ed 'cuda:0' -gi -1 -rlr 5e-4 -clr 5e-4 -p 10 -ps 10 -pss 0.001 -pd 2 -lr 5e-6 -i 5 -g 0. --verbose --update_c --return_best
+#CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./RHSCFedAvg_v3.py --seed 999 -m 'cicids' -dp 1.0 -tr 0.3 -or 0.1 -v 0 -e 20 -r 100 -ad 'trial10' -l 0. -ed 'cuda:0' -gi -1 -rlr 1e-3 -clr 5e-4 -p 10 -ps 10 -pss 0.001 -pd 2 -lr 1e-5 -i 5 -g 0. --verbose --update_c
+#CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./RHSCFedAvg_v3.py --seed 999 -m 'cicids' -dp 1.0 -tr 0.3 -or 0.1 -v 0 -e 20 -r 50 -ad 'trial11' -l 0. -ed 'cuda:0' -gi 10 -rlr 1e-3 -clr 5e-4 -p 10 -ps 10 -pss 0.001 -pd 2 -lr 1e-5 -i 5 -g 0. --verbose --update_c --return_best
+#CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./RHSCFedAvg_v3.py --seed 999 -m 'cicids' -dp 1.0 -tr 0.3 -or 0.1 -v 0 -e 20 -r 50 -ad 'trial12' -l 0. -ed 'cuda:0' -gi 10 -rlr 1e-4 -clr 5e-4 -p 10 -ps 10 -pss 0.001 -pd 2 -lr 1e-5 -i 5 -g 0. --verbose --update_c
+#CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./RHSCFedAvg_v3.py --seed 999 -m 'cicids' -dp 1.0 -tr 0.3 -or 0.1 -v 0 -e 20 -r 100 -ad 'trial13' -l 0. -ed 'cuda:0' -gi -1 -rlr 1e-3 -clr 5e-4 -p 10 -ps 10 -pss 0.001 -pd 2 -lr 1e-5 -i 5 -g 0. --verbose --update_c --return_best
+#CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./RHSCFedAvg_v3.py --seed 999 -m 'cicids' -dp 1.0 -tr 0.3 -or 0.1 -v 0 -e 20 -r 100 -ad 'trial14' -l 0. -ed 'cuda:0' -gi -1 -rlr 1e-3 -clr 5e-4 -p 10 -ps 10 -pss 0.001 -pd 2 -lr 1e-5 -i 5 -g 0. --verbose --update_c
+CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./RHSCFedAvg_v3.py --seed 999 -m 'cicids' -dp 1.0 -tr 0.3 -or 0.1 -v 0 -e 20 -r 100 -ad 'trial15' -l 0. -ed 'cuda:0' -gi -1 -rlr 1e-4 -clr 5e-4 -p 10 -ps 10 -pss 0.001 -pd 2 -lr 1e-5 -i 5 -g 0. --verbose --update_c --return_best
+CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./RHSCFedAvg_v3.py --seed 999 -m 'cicids' -dp 1.0 -tr 0.3 -or 0.1 -v 0 -e 20 -r 100 -ad 'trial16' -l 0. -ed 'cuda:0' -gi 10 -rlr 1e-4 -clr 5e-4 -p 10 -ps 10 -pss 0.001 -pd 2 -lr 1e-5 -i 5 -g 0. --verbose --update_c --return_best

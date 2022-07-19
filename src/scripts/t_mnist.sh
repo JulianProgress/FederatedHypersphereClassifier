@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./RHSCFedAvg_v3.py --seed 999 -dp 0.5 -tr 0.3 -or 0.1 -v 0 -e 20 -r 100 -ad 'trial1' -l 0. -ed 'cuda:0' -gi 1 -rlr 1e-4 -clr 5e-5 -p 10 -ps 10 -pss 0.001 -pd 2 -lr 1e-4 -i 5 -g 0. --verbose --return_best

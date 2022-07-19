@@ -1,0 +1,1 @@
+python3 ./fl/FedAvg.py --seed 999 -n 8 -b 128 -e 10 -r 10 -ed 'cuda:2' -p 5 -ps 10 -pss 0.001 pd 3 -lr 1e-5 -i 2 --include_pert
